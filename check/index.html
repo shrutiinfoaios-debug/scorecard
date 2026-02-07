@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .container {
+    display: flex;
+    justify-content: center;   /* horizontal center */
+}
+
+.widget-section {
+    width: 520px;              /* small size */
+    max-width: 100%;
+    padding: 16px;
+}
+
+</style>    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Scoreboard Widget</title>
+</head>
+<body>
+    <div class="container">
+        <div class="widget-section">
+            <div id="scorecard-container"></div>
+        </div>
+    </div>
+    <script src="widget.umd.cjs"></script>
+    <script 
+        data-match-id="68510"
+        data-container="scorecard-container"
+        data-size="small"
+        data-theme="light"
+        data-api-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNocnVzaHRpMTIzQGdtYWlsLmNvbSIsIl9pZCI6IjY5NjRlMjJjZWE2MzE3ZmUyOTlmMjFmOCIsImlhdCI6MTc2ODIxOTI3NCwiZXhwIjoxNzk5NzU1Mjc0fQ.BmHnowVn_fwLpKl3eHMjemmzjNocCSAYxJ7VFLlWSqo">
+    </script>
+</body>
+</html>
